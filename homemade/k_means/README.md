@@ -60,7 +60,7 @@
 
 ![Centroids](../../images/k_means/centroids.svg)
 
-![k-means-算法](../../images/k_means/k-means-算法.svg)
+![k-means-algorithm](../../images/k_means/k-means-algorithm.svg)
 
 ## 引用
 
