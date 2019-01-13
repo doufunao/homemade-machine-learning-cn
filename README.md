@@ -23,15 +23,26 @@
 
 #### 🤖 逻辑回归 Logistic Regression
 
-
+- 📗 [数学 | 逻辑回归](homemade/logistic_regression) - 理论和延伸阅读链接
+- ⚙️ [代码 | 逻辑回归](homemade/logistic_regression/logistic_regression.py) - 实现示例
+- ▶️ [演示 | 逻辑回归 (线性边界)](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/logistic_regression/logistic_regression_with_linear_boundary_demo.ipynb) - 基于`花瓣长度`(`petal_length`)和`花瓣宽度`(`petal_width`)预测鸢尾花分类(`class`)
+- ▶️ [演示 | 逻辑回归 (非线性边界)](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/logistic_regression/logistic_regression_with_non_linear_boundary_demo.ipynb) - 基于参数1(`param_1`)和参数2(`param_2`),预测芯片有效性(`validity`)
+- ▶️ [演示 | 多元逻辑回归 | MNIST数据集](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/logistic_regression/multivariate_logistic_regression_demo.ipynb) - 识别`28x28`像素图片的手写数字
+- ▶️ [演示 | 多元逻辑回归 | Fashion MNIST数据集](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/logistic_regression/multivariate_logistic_regression_fashion_demo.ipynb) - 识别`28x28`像素图片的衣服类型
 
 ## 无监督学习 Unsupervised Learning
 
 ### 聚类 Clustering
 
+在聚类问题中我们利用未知的特性区分训练样本。算法本身会决定哪种特性用来区分。
+
+_用途举例：市场划分， 社交网络分析， 组织计算集群，天文数据分析，图像压缩，等等._
+
 #### 🤖 k-均值算法 K-means Algorithm
 
-
+- 📗 [数学 | K-means 算法](homemade/k_means) - 理论和延伸阅读的链接
+- ⚙️ [代码 | K-means 算法](homemade/k_means/k_means.py) - 实现示例
+- ▶️ [演示 | K-means 算法](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/k_means/k_means_demo.ipynb) - 利用`花瓣长度`(`petal_length`)和`花瓣宽度`(`petal_width`)将鸢尾花分到多个类(clusters)
 
 ### 异常检测 Anomaly Detection
 
